@@ -87,11 +87,15 @@ img.hero {
 .section2 {
     color: #1f2937;
     text-align: center;
+    margin-top: 50px;
+    margin-bottom: 120px;
 }
 
 .section2 h2 {
     font-size: 36px;
     font-weight: bolder;
+    margin-bottom: 50px;
+    margin-top: 0;
 }
 
 .item img {
@@ -99,4 +103,29 @@ img.hero {
     height: 220px;
     object-fit: cover;
     border-radius: 5px;
+}
+
+.section3 {
+    background-color: #e5e7eb;
+    padding: 80px 0;
+    color: #1f2937;
+}
+
+#quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    margin: 0;
+}
+
+#quote-author {
+    font-weight: bold;
+    margin: 0;
+    text-align: end;
+    font-size: 26px;
+}
+
+.section3 .container {
+    display: block;
+    padding: 60px;
 }
