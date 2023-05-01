@@ -39,6 +39,7 @@ button {
     background-color: #3882f6;
     border-radius: 5px;
     color: #f9faf8;
+    font-size: 18px;
     font-weight: bold;
     padding: 6px 18px;
     border: none;
@@ -128,4 +129,30 @@ img.hero {
 .section3 .container {
     display: block;
     padding: 60px;
+}
+
+.section4 {
+    padding: 160px 0;
+}
+
+.section4 .container {
+    background-color: #3882f6;
+    padding: 40px 100px;
+    border-radius: 5px;
+    justify-content: space-between;
+}
+
+
+h2.cta {
+    color: #f9faf8;
+    margin: 0;
+}
+
+p.cta {
+    color: #e5e7eb;
+    margin: 0;
+}
+
+button.cta {
+    border: 2px solid #f9faf8
 }
