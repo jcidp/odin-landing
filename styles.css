@@ -19,7 +19,7 @@ nav, .container {
 
 h1 {
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: bolder;
     color: #f9faf8;
     margin: 0;
 }
@@ -58,15 +58,13 @@ nav a {
 
 .container {
     display: flex;
-    margin-top: 80px;
-    margin-bottom: 80px;
 }
 
 div.hero {
     flex: 1;
 }
 
-#img-container {
+#hero-img-container {
     flex: 1;
 }
 
@@ -81,5 +79,24 @@ img.hero {
 }
 
 .section1 .container {
+    margin-top: 80px;
+    margin-bottom: 80px;
     gap: 80px;
+}
+
+.section2 {
+    color: #1f2937;
+    text-align: center;
+}
+
+.section2 h2 {
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.item img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 5px;
 }
